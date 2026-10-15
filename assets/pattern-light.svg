@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="336" height="336" viewBox="0 0 336 336" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<g transform="translate(16 16)"><path d="M13.5 2.5 5.5 13.5H11l-1 8 8.5-11.5H13l.5-7.5z"/></g>
+<g transform="translate(72 16)" opacity=".35"><circle cx="12" cy="12" r="9"/><path d="M17 12a5 5 0 0 1-5 5"/></g>
+<g transform="translate(128 16)"><path d="M3 8c3-2.5 6 2.5 9 0s6 2.5 9 0M3 12.5c3-2.5 6 2.5 9 0s6 2.5 9 0M3 17c3-2.5 6 2.5 9 0s6 2.5 9 0"/></g>
+<g transform="translate(184 16)" opacity=".35"><circle cx="12" cy="12" r="3.5"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></g>
+<g transform="translate(240 16)"><path d="M4.5 19.5C3.5 11 9.5 4 20 4c.5 10.5-6.5 16.5-15.5 15.5z"/><path d="M4.5 19.5 14 10M9 9.5l5 5"/></g>
+<g transform="translate(296 16)" opacity=".35"><path d="M12 12c-2-2.5-3.5-4-5.5-4a4 4 0 0 0 0 8c2 0 3.5-1.5 5.5-4s3.5-4 5.5-4a4 4 0 0 1 0 8c-2 0-3.5-1.5-5.5-4z"/></g>
+<g transform="translate(16 72)" opacity=".35"><path d="M3 8c3-2.5 6 2.5 9 0s6 2.5 9 0M3 12.5c3-2.5 6 2.5 9 0s6 2.5 9 0M3 17c3-2.5 6 2.5 9 0s6 2.5 9 0"/></g>
+<g transform="translate(72 72)"><path d="M12 12c-2-2.5-3.5-4-5.5-4a4 4 0 0 0 0 8c2 0 3.5-1.5 5.5-4s3.5-4 5.5-4a4 4 0 0 1 0 8c-2 0-3.5-1.5-5.5-4z"/></g>
+<g transform="translate(128 72)" opacity=".35"><path d="M4.5 19.5C3.5 11 9.5 4 20 4c.5 10.5-6.5 16.5-15.5 15.5z"/><path d="M4.5 19.5 14 10M9 9.5l5 5"/></g>
+<g transform="translate(184 72)"><circle cx="12" cy="12" r="9"/><path d="M17 12a5 5 0 0 1-5 5"/></g>
+<g transform="translate(240 72)" opacity=".35"><path d="M13.5 2.5 5.5 13.5H11l-1 8 8.5-11.5H13l.5-7.5z"/></g>
+<g transform="translate(296 72)"><circle cx="12" cy="12" r="3.5"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></g>
+<g transform="translate(16 128)"><path d="M4.5 19.5C3.5 11 9.5 4 20 4c.5 10.5-6.5 16.5-15.5 15.5z"/><path d="M4.5 19.5 14 10M9 9.5l5 5"/></g>
+<g transform="translate(72 128)" opacity=".35"><circle cx="12" cy="12" r="3.5"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></g>
+<g transform="translate(128 128)"><path d="M13.5 2.5 5.5 13.5H11l-1 8 8.5-11.5H13l.5-7.5z"/></g>
+<g transform="translate(184 128)" opacity=".35"><path d="M12 12c-2-2.5-3.5-4-5.5-4a4 4 0 0 0 0 8c2 0 3.5-1.5 5.5-4s3.5-4 5.5-4a4 4 0 0 1 0 8c-2 0-3.5-1.5-5.5-4z"/></g>
+<g transform="translate(240 128)"><path d="M3 8c3-2.5 6 2.5 9 0s6 2.5 9 0M3 12.5c3-2.5 6 2.5 9 0s6 2.5 9 0M3 17c3-2.5 6 2.5 9 0s6 2.5 9 0"/></g>
+<g transform="translate(296 128)" opacity=".35"><circle cx="12" cy="12" r="9"/><path d="M17 12a5 5 0 0 1-5 5"/></g>
+<g transform="translate(16 184)" opacity=".35"><path d="M13.5 2.5 5.5 13.5H11l-1 8 8.5-11.5H13l.5-7.5z"/></g>
+<g transform="translate(72 184)"><circle cx="12" cy="12" r="9"/><path d="M17 12a5 5 0 0 1-5 5"/></g>
+<g transform="translate(128 184)" opacity=".35"><path d="M3 8c3-2.5 6 2.5 9 0s6 2.5 9 0M3 12.5c3-2.5 6 2.5 9 0s6 2.5 9 0M3 17c3-2.5 6 2.5 9 0s6 2.5 9 0"/></g>
+<g transform="translate(184 184)"><circle cx="12" cy="12" r="3.5"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></g>
+<g transform="translate(240 184)" opacity=".35"><path d="M4.5 19.5C3.5 11 9.5 4 20 4c.5 10.5-6.5 16.5-15.5 15.5z"/><path d="M4.5 19.5 14 10M9 9.5l5 5"/></g>
+<g transform="translate(296 184)"><path d="M12 12c-2-2.5-3.5-4-5.5-4a4 4 0 0 0 0 8c2 0 3.5-1.5 5.5-4s3.5-4 5.5-4a4 4 0 0 1 0 8c-2 0-3.5-1.5-5.5-4z"/></g>
+<g transform="translate(16 240)"><path d="M3 8c3-2.5 6 2.5 9 0s6 2.5 9 0M3 12.5c3-2.5 6 2.5 9 0s6 2.5 9 0M3 17c3-2.5 6 2.5 9 0s6 2.5 9 0"/></g>
+<g transform="translate(72 240)" opacity=".35"><path d="M12 12c-2-2.5-3.5-4-5.5-4a4 4 0 0 0 0 8c2 0 3.5-1.5 5.5-4s3.5-4 5.5-4a4 4 0 0 1 0 8c-2 0-3.5-1.5-5.5-4z"/></g>
+<g transform="translate(128 240)"><path d="M4.5 19.5C3.5 11 9.5 4 20 4c.5 10.5-6.5 16.5-15.5 15.5z"/><path d="M4.5 19.5 14 10M9 9.5l5 5"/></g>
+<g transform="translate(184 240)" opacity=".35"><circle cx="12" cy="12" r="9"/><path d="M17 12a5 5 0 0 1-5 5"/></g>
+<g transform="translate(240 240)"><path d="M13.5 2.5 5.5 13.5H11l-1 8 8.5-11.5H13l.5-7.5z"/></g>
+<g transform="translate(296 240)" opacity=".35"><circle cx="12" cy="12" r="3.5"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></g>
+<g transform="translate(16 296)" opacity=".35"><path d="M4.5 19.5C3.5 11 9.5 4 20 4c.5 10.5-6.5 16.5-15.5 15.5z"/><path d="M4.5 19.5 14 10M9 9.5l5 5"/></g>
+<g transform="translate(72 296)"><circle cx="12" cy="12" r="3.5"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></g>
+<g transform="translate(128 296)" opacity=".35"><path d="M13.5 2.5 5.5 13.5H11l-1 8 8.5-11.5H13l.5-7.5z"/></g>
+<g transform="translate(184 296)"><path d="M12 12c-2-2.5-3.5-4-5.5-4a4 4 0 0 0 0 8c2 0 3.5-1.5 5.5-4s3.5-4 5.5-4a4 4 0 0 1 0 8c-2 0-3.5-1.5-5.5-4z"/></g>
+<g transform="translate(240 296)" opacity=".35"><path d="M3 8c3-2.5 6 2.5 9 0s6 2.5 9 0M3 12.5c3-2.5 6 2.5 9 0s6 2.5 9 0M3 17c3-2.5 6 2.5 9 0s6 2.5 9 0"/></g>
+<g transform="translate(296 296)"><circle cx="12" cy="12" r="9"/><path d="M17 12a5 5 0 0 1-5 5"/></g>
+</svg>
