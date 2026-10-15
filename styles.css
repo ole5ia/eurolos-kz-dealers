@@ -684,3 +684,6 @@ html.modal-open { overflow: hidden; }
 
 /* Без стрелок между шагами */
 .flow__step::after { display: none !important; }
+
+.paycard { padding: 22px 26px; }
+@media (max-width: 520px) { .paycard { padding: 20px 22px; } }
