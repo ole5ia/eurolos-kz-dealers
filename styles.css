@@ -681,3 +681,6 @@ html.modal-open { overflow: hidden; }
 .flow__img--phone img { position: absolute; left: 50%; bottom: -22%; width: 44%; height: auto; margin-left: -22%; }
 .flow__step:last-child .flow__img { background: var(--bg-tint); }
 .flow__step:hover .flow__img img { transform: scale(1.05); }
+
+/* Без стрелок между шагами */
+.flow__step::after { display: none !important; }
