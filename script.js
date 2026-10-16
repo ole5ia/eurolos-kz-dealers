@@ -232,21 +232,36 @@
     });
   });
 
-  // Маска телефона +7 (XXX) XXX-XX-XX
+  // Маска телефона +7 (7XX) XXX-XX-XX. Казахстанские номера сами начинаются на 7,
+  // поэтому первую 7 без «+» считаем частью номера, а не кодом страны
+  function phoneDigits(raw) {
+    var d = raw.replace(/\D/g, '');
+    var nat;
+    if (/^\s*\+/.test(raw)) nat = d.slice(1);
+    else if (d.length === 11 && /^[78]/.test(d)) nat = d.slice(1);
+    else if (d.charAt(0) === '8') nat = d.slice(1);
+    else nat = d;
+    if (nat.length > 10 && /^[78]/.test(nat)) nat = nat.slice(1);
+    return nat.slice(0, 10);
+  }
+  function formatPhone(nat) {
+    var out = '+7 (' + nat.slice(0, 3);
+    if (nat.length >= 3) out += ') ' + nat.slice(3, 6);
+    if (nat.length >= 6) out += '-' + nat.slice(6, 8);
+    if (nat.length >= 8) out += '-' + nat.slice(8, 10);
+    return out;
+  }
   function maskPhone(input) {
-    input.addEventListener('input', function () {
-      var d = input.value.replace(/\D/g, '');
-      if (!d) { input.value = ''; return; }
-      if (d.startsWith('8')) d = '7' + d.slice(1);
-      if (!d.startsWith('7')) d = '7' + d;
-      d = d.slice(0, 11);
-      var out = '+7';
-      if (d.length > 1) out += ' (' + d.slice(1, 4);
-      if (d.length >= 4) out += ') ' + d.slice(4, 7);
-      if (d.length >= 7) out += '-' + d.slice(7, 9);
-      if (d.length >= 9) out += '-' + d.slice(9, 11);
-      input.value = out;
+    var prev = '';
+    input.addEventListener('input', function (e) {
+      var nat = phoneDigits(input.value);
+      // стирание через скобку/дефис убирает последнюю цифру
+      if (e.inputType === 'deleteContentBackward' && nat === prev) nat = nat.slice(0, -1);
+      if (!nat && (/^delete/.test(e.inputType || '') || !/[78+]/.test(input.value))) { input.value = ''; prev = ''; return; }
+      input.value = formatPhone(nat);
+      prev = nat;
     });
+    input.form && input.form.addEventListener('reset', function () { prev = ''; });
   }
 
   // Формы заявки: внизу страницы и во всплывающем окне (отправку на сервер/CRM подключить в submit)
@@ -265,7 +280,7 @@
         el.classList.toggle('is-invalid', bad);
         if (bad) ok = false;
       });
-      var phoneBad = phone.value.replace(/\D/g, '').length < 11;
+      var phoneBad = phoneDigits(phone.value).length < 10;
       phone.classList.toggle('is-invalid', phoneBad);
       if (phoneBad) ok = false;
       var consent = form.elements.consent;

@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 180" fill="none" stroke="#333333" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-<circle cx="120" cy="92" r="78" fill="#FEF4CC" stroke="none"/>
-<rect x="46" y="68" width="120" height="78" rx="12" fill="#333333"/><rect x="46" y="58" width="108" height="24" rx="8" fill="#61C132" stroke="#333333"/><rect x="128" y="94" width="46" height="30" rx="8" fill="#FBCD17"/><circle cx="142" cy="109" r="5" fill="#333333" stroke="none"/>
-<g transform="rotate(-8 170 60)"><rect x="132" y="30" width="80" height="40" rx="8" fill="#FBCD17"/><text x="172" y="57" text-anchor="middle" font-family="Geometria, Arial, sans-serif" font-weight="700" font-size="20" fill="#333333" stroke="none">$700+</text></g>
-<ellipse cx="190" cy="150" rx="18" ry="6" fill="#FBCD17"/><path d="M172 140v10c0 3 8 6 18 6s18-3 18-6v-10"/><ellipse cx="190" cy="140" rx="18" ry="6" fill="#FBCD17"/>
-</svg>
