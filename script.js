@@ -120,17 +120,6 @@
   window.addEventListener('load', revealFallback);
   setTimeout(revealFallback, 1500);
 
-  // Видео в карточке материалов играет, только когда видно на экране
-  var matVideo = document.querySelector('.mat__video');
-  if (matVideo && 'IntersectionObserver' in window && !reduceMotion) {
-    new IntersectionObserver(function (entries) {
-      entries.forEach(function (en) {
-        if (en.isIntersecting) { var pr = matVideo.play(); if (pr && pr.catch) pr.catch(function () {}); }
-        else matVideo.pause();
-      });
-    }, { threshold: 0.25 }).observe(matVideo);
-  }
-
   // Интерактивная карта: координаты точек в пикселях исходной картинки 1260×1120
   var MAP_W = 1260, MAP_H = 1120;
   var LABELS = { prod: 'Производство Евролос', stock: 'Склад быстрой отгрузки', dealer: 'Официальные дилеры Евролос' };

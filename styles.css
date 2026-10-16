@@ -250,7 +250,7 @@ button, input { font: inherit; color: inherit; }
 .income.is-visible .tier__icons svg { opacity: 1; transform: none; }
 .tier__qty small { display: block; font-size: 13px; color: var(--ink-3); font-weight: 400; }
 .tier strong { font: 700 clamp(22px, 2.3vw, 30px)/1.1 var(--font-display); letter-spacing: -.02em; }
-.tier:last-child { background: var(--ink); color: #fff; }
+#income .tier:last-child { background: var(--ink); color: #fff; }
 .tier:last-child small { color: rgba(255,255,255,.55); }
 [data-usd] { transition: opacity .2s ease; }
 .is-switching [data-usd] { opacity: 0; }
