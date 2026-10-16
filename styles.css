@@ -708,6 +708,9 @@ html.modal-open { overflow: hidden; }
 .help:hover .doc-grunt { transform: rotate(8deg) translate(6px, -12px); }
 .help__img--laptop img { width: 78%; height: auto; transition: transform .5s ease; }
 .help:hover .help__img--laptop img { transform: translateY(-6px) rotate(1deg); }
+.help__img--chats { background: #f3f7f1; overflow: hidden; }
+.help__img--chats img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s ease; }
+.help:hover .help__img--chats img { transform: scale(1.04); }
 .help__img--photo { background: #fff; overflow: hidden; }
 .help__img--photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 4%; transition: transform .6s ease; }
 .help:hover .help__img--photo img { transform: scale(1.05); }
