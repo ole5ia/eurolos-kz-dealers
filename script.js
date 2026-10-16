@@ -36,9 +36,12 @@
     if (e.key === 'Escape') setMenu(false);
   });
 
-  // Видео: тихий автоплей, без ошибок на iOS
+  // Видео первого экрана: квадратная версия на телефоне, 16:9 на компьютере; тихий автоплей
   var video = document.querySelector('.hero__media');
   if (video) {
+    var mobile = window.matchMedia('(max-width: 700px)').matches;
+    if (mobile) video.poster = video.dataset.posterMobile;
+    video.src = mobile ? video.dataset.srcMobile : video.dataset.src;
     video.muted = true;
     var p = video.play();
     if (p && p.catch) p.catch(function () {});
